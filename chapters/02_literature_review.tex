@@ -1,40 +1,33 @@
 \chapter{Literature Review}
-\section{AI in Healthcare: Overview}
-The field of Artificial Intelligence in healthcare is rapidly evolving, with significant advances in:
-\begin{itemize}
-    \item Predictive diagnostic models \cite{optimizing_ai_sepsis_2024}
-    \item Multimodal data integration
-    \item Explainable AI techniques
-\end{itemize}
+The field of Artificial Intelligence in healthcare is rapidly evolving, with significant advances in: (i) predictive diagnostic models \cite{optimizing_ai_sepsis_2024}, (ii) Multimodal data integration, and (iii) Explainable AI techniques. 
 
-\section{Sepsis Prediction Landscape}
-\subsection{Current Challenges}
-\begin{itemize}
-    \item Limited external validation of existing models
-    \item Small sample sizes in most studies
-    \item Lack of multimodal approach
-\end{itemize}
+\section{AI in Healthcare}
 
-\subsection{Key Methodological Approaches}
-\begin{enumerate}
-    \item Classical Machine Learning Models
-    \item Deep Learning Architectures
-    \item Transformer-based Models
-\end{enumerate}
+\subsection{Surveys}
+Here are some survey \& position papers. Rajpurkar et al. \cite{moor2023GMAI} advocate for \textit{generalist medical AI}, i.e. models which are trained on large, unlabelled, diverse datasets with self-supervision, can flexibly ingest different modalities (e.g. imaging, EHR, genomics) and produce expressive outputs (e.g. free-text explanations, spoken recommendations). They argue that such models will be capable of carrying out a diverse set of tasks using very little or no task-specific labelled data.
 
-\section{Systematic Review Insights}
-Several systematic reviews highlight critical aspects of sepsis prediction:
-\begin{itemize}
-    \item Time to treatment significantly impacts mortality
-    \item Machine learning shows promise in early detection
-    \item Current models require substantial improvement in generalizability
-\end{itemize}
+\todo[inline]{Add surveys on sepsis, etc.}
 
-\section{Emerging Research Directions}
-\begin{itemize}
-    \item Multimodal Explanation Techniques
-    \item Time-series Explanation Methods
-    \item Concept-based Interpretability
-\end{itemize}
 
-\todo[inline]{Continuously update with latest research findings}
+\subsection{Healthcare Applications}
+\textbf{Sepsis} \cite{singer2016sepsis3} is a life-threatening organ dysfunction caused by a dysregulated host response to infection. It is a leading cause of morbidity and mortality in hospitals, with an estimated 11 million deaths annually \cite{rudd2020global}. 
+
+\textbf{Cardiac Arrest} is a critical condition that requires immediate medical intervention. It occurs when the heart stops beating effectively, leading to a lack of blood flow to vital organs.  There are two types of cardiac arrest: out-of-hospital cardiac arrest (OHCA) and in-hospital cardiac arrest (IHCA). OHCA survival rate to discharge is 10-12\%, while IHCA survival rate is 20-25\% \cite{andersen2019cardiac}. 80\% of presenting rhythms are non-shockable, meaning that defibrillation is not an option, i.e. that early detection is the best fix. The incidence is 9-10 per 1000 admissions \cite{andersen2019cardiac}.
+
+\textbf{Breast Cancer} affects 1 in 8 women. They use recurrence gene assays (Breast Cancer Index, JCO). 
+
+
+
+\section{Explainable AI}
+\todo[inline]{read the LIME, SHApe papers, and add a summary here.}
+
+\section{Multimodal AI}
+\todo[inline]{read the papers on multimodal AI, and add a summary here.}
+
+RQ: how do we compress exomic analysis? 
+Videos belong in low-dimensional space, so do sequences also?
+
+Dimension-reduction with phenotypes! 
+
+HeLM
+HAIM 
