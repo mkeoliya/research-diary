@@ -10,8 +10,37 @@ Here are some survey \& position papers. Rajpurkar et al. \cite{moor2023GMAI} ad
 
 
 \subsection{Healthcare Applications}
-\textbf{Sepsis} \cite{singer2016sepsis3} is a life-threatening organ dysfunction caused by a dysregulated host response to infection. It is a leading cause of morbidity and mortality in hospitals, with an estimated 11 million deaths annually \cite{rudd2020global}. 
+\label{sec:healthcare_applications}
 
+\subsubsection{Sepsis}
+\label{sec:sepsis}
+\textbf{Sepsis}  is a life-threatening organ dysfunction caused by a dysregulated host response to infection \cite{singer2016sepsis3}. It is a leading cause of morbidity and mortality in hospitals, with an estimated 11 million deaths annually \cite{rudd2020global}. Organ dysfunction can be identified as an acute change in total SOFA score
+$\geq 2$ points consequent to the infection, Fig \ref{fig:sofa}. Prior sepsis definitions used two of 4 SIRS criteria, which are not specific to sepsis and can lead to overdiagnosis(patients who has SIRS but not sepsis).
+
+
+% insert inline SOFA figure in images/sofa.png
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{images/sofa.png}
+    \caption{SOFA score criteria for organ dysfunction.}
+    \label{fig:sofa}
+\end{figure}
+
+The SOFA score is a clinical score used to track a patient's status during their stay in an ICU. It is used to determine the extent of a person's organ function or rate of failure. The SOFA score is based on the following six organ systems: respiratory, coagulation, liver, cardiovascular, renal, and neurological. Each system is assigned a score from 0 to 4, with higher scores indicating more severe dysfunction. The total SOFA score is the sum of the individual scores for each organ system.
+
+\textbf{ML-Driven Sepsis Detection} \\ 
+Surveys: Islam et al. \cite{islam2023sepsis} does a meta-study. Moor et al. 
+
+
+Papers
+\textbf{2015-2017}: ?? 
+\textbf{2017-2020}: TREWS \cite{adams2022trews} 
+\textbf{2020-2022}: ??
+\textbf{2022-}: \cite{optimizing_ai_sepsis_2024}
+
+
+\subsubsection{Cardiac Arrest}
+\label{sec:cardiac_arrest}
 \textbf{Cardiac Arrest} is a critical condition that requires immediate medical intervention. It occurs when the heart stops beating effectively, leading to a lack of blood flow to vital organs.  There are two types of cardiac arrest: out-of-hospital cardiac arrest (OHCA) and in-hospital cardiac arrest (IHCA). OHCA survival rate to discharge is 10-12\%, while IHCA survival rate is 20-25\% \cite{andersen2019cardiac}. 80\% of presenting rhythms are non-shockable, meaning that defibrillation is not an option, i.e. that early detection is the best fix. The incidence is 9-10 per 1000 admissions \cite{andersen2019cardiac}.
 
 \textbf{Breast Cancer} affects 1 in 8 women. They use recurrence gene assays (Breast Cancer Index, JCO). 
